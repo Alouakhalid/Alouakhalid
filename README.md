@@ -48,7 +48,7 @@
 ## 📫 Contact Me
 
 - 📧 Email: ali88883737@gmail.com
-- 💼 LinkedIn: [Ali Khalid](https://www.linkedin.com/in/ali-khalid-profile) *(replace with actual URL if available)*
+- 💼 LinkedIn: [Ali Khalid](https://www.linkedin.com/in/ali-khalid-ali-khalid-85468225b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) *(replace with actual URL if available)*
 - 🌐 Portfolio: [https://spiffy-griffin-4b5db6.netlify.app/](https://spiffy-griffin-4b5db6.netlify.app/)
 
 ---
