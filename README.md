@@ -83,7 +83,34 @@ class AliKhalid:
 
 ---
 
-### 🤖 1. RL Stock Trading Agent — *Flagship*
+### 👁️ 1. NeuralLens — *Graduation Flagship*
+
+> **Continual Learning Image Captioning** platform powered by a custom hybrid Vision-Transformer (ViT) & GPT-2 decoding engine.
+
+<table>
+<tr>
+  <td><b>🔗 Repository</b></td>
+  <td><a href="https://github.com/Alouakhalid/NeuralLens"><code>NeuralLens</code></a></td>
+</tr>
+<tr>
+  <td><b>📦 Stack</b></td>
+  <td><code>TensorFlow</code> · <code>Keras</code> · <code>Flask</code> · <code>ViT+GPT-2</code></td>
+</tr>
+<tr>
+  <td><b>🎯 Capability</b></td>
+  <td>Real-time semantic image captioning + In-browser model fine-tuning</td>
+</tr>
+</table>
+
+**Architecture highlights:**
+- 🏛️ Custom built **Vision-Transformer (ViT)** encoder with 1D positional embeddings
+- 🧠 Autoregressive **GPT-2 Decoder** with Cross-Attention + Custom BPE Tokenizer
+- 🎨 Ultra-premium, state-of-the-art **Glassmorphism web GUI**
+- 📊 Native hardware telemetry (`psutil` + `NVML`)
+
+---
+
+### 🤖 2. RL Stock Trading Agent
 
 > **Production-grade Deep Reinforcement Learning** for autonomous stock trading with realistic market microstructure.
 
@@ -129,7 +156,7 @@ flowchart LR
 
 ---
 
-### 🧠 2. AI Researcher
+### 🧠 3. AI Researcher
 
 > ⭐ **6 Stars** — Framework for studying deep learning at full mathematical depth. Zero black boxes.
 
@@ -159,7 +186,7 @@ flowchart LR
 
 ---
 
-### 🔗 3. LangChain & LangGraph Middleware
+### 🔗 4. LangChain & LangGraph Middleware
 
 > Advanced LLM middleware pipeline with dynamic model routing, context chaining, and multi-agent graph orchestration.
 
@@ -187,7 +214,7 @@ flowchart TD
 
 ---
 
-### 📊 4. Multi-Model Trading System
+### 📊 5. Multi-Model Trading System
 
 > Hybrid quantitative analysis — **Transformer + LSTM + Random Forest** ensemble for market prediction.
 
@@ -635,9 +662,12 @@ timeline
 
     Mar 2026 : 📈 Financial Reinforcement Learning
              : Multi-Model Trading System · PPO Agent · Custom Gymnasium Env
+
+    May 2026 : 👁️ Continual Learning ViT Architecture
+             : NeuralLens — ViT & GPT-2 Image Captioning Platform
 ```
 
-<br/>
+<br>
 
 <!-- ─── CURRENT FOCUS ────────────────────────────────────────────────────────── -->
 ## 🎯 Current Focus
