@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1320"/>
+      <stop offset="100%" stop-color="#141829"/>
+    </linearGradient>
+
+    <!-- Animated Glow -->
+    <linearGradient id="trophyGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f">
+        <animate attributeName="stop-color" values="#ff007f;#7928ca;#00f0ff;#ff007f" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#00f0ff">
+        <animate attributeName="stop-color" values="#00f0ff;#ff007f;#7928ca;#00f0ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#7928ca">
+        <animate attributeName="stop-color" values="#7928ca;#00f0ff;#ff007f;#7928ca" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="badgeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="boardClip">
+      <rect width="1200" height="150" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#boardClip)">
+    <!-- Base Canvas -->
+    <rect width="1200" height="150" fill="url(#cardBg)"/>
+    <rect width="1200" height="150" fill="none" stroke="url(#trophyGlow)" stroke-width="1.5" rx="16"/>
+
+    <!-- Subtle Grid -->
+    <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+      <line x1="200" y1="0" x2="200" y2="150"/>
+      <line x1="400" y1="0" x2="400" y2="150"/>
+      <line x1="600" y1="0" x2="600" y2="150"/>
+      <line x1="800" y1="0" x2="800" y2="150"/>
+      <line x1="1000" y1="0" x2="1000" y2="150"/>
+    </g>
+
+    <!-- TROPHY 1: ECPC Finalist -->
+    <g transform="translate(15, 15)">
+      <rect width="185" height="120" rx="12" fill="#161b2c" stroke="#ffd700" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="92" cy="38" r="22" fill="#ffd700" fill-opacity="0.12"/>
+      <text x="92" y="46" text-anchor="middle" font-size="26">🏆</text>
+      <!-- Rank Badge -->
+      <rect x="135" y="10" width="38" height="18" rx="9" fill="#ffd700"/>
+      <text x="154" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="900" fill="#0d1117">SSS</text>
+      <text x="92" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#ffd700">ECPC FINALIST</text>
+      <text x="92" y="102" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94a3b8">Rank 61 / 600+ Teams</text>
+    </g>
+
+    <!-- TROPHY 2: Qalam-Net SOTA -->
+    <g transform="translate(212, 15)">
+      <rect width="185" height="120" rx="12" fill="#161b2c" stroke="#ff007f" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="92" cy="38" r="22" fill="#ff007f" fill-opacity="0.12"/>
+      <text x="92" y="46" text-anchor="middle" font-size="26">🔥</text>
+      <rect x="135" y="10" width="38" height="18" rx="9" fill="#ff007f"/>
+      <text x="154" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="900" fill="#ffffff">SS</text>
+      <text x="92" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#ff6ec7">QALAM-NET OCR</text>
+      <text x="92" y="102" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94a3b8">35,800+ HF Downloads</text>
+    </g>
+
+    <!-- TROPHY 3: NTI NLP Honors -->
+    <g transform="translate(409, 15)">
+      <rect width="185" height="120" rx="12" fill="#161b2c" stroke="#00f0ff" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="92" cy="38" r="22" fill="#00f0ff" fill-opacity="0.12"/>
+      <text x="92" y="46" text-anchor="middle" font-size="26">🧠</text>
+      <rect x="135" y="10" width="38" height="18" rx="9" fill="#00f0ff"/>
+      <text x="154" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="900" fill="#0d1117">SSS</text>
+      <text x="92" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#38bdf8">NTI NLP HONORS</text>
+      <text x="92" y="102" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94a3b8">97.8% Evaluation Score</text>
+    </g>
+
+    <!-- TROPHY 4: Robotic Precision Thesis -->
+    <g transform="translate(606, 15)">
+      <rect width="185" height="120" rx="12" fill="#161b2c" stroke="#00e676" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="92" cy="38" r="22" fill="#00e676" fill-opacity="0.12"/>
+      <text x="92" y="46" text-anchor="middle" font-size="26">🦾</text>
+      <rect x="135" y="10" width="38" height="18" rx="9" fill="#00e676"/>
+      <text x="154" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="900" fill="#0d1117">S</text>
+      <text x="92" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#4ade80">ROBOTIC CONTROL</text>
+      <text x="92" y="102" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94a3b8">+15% Arm Precision</text>
+    </g>
+
+    <!-- TROPHY 5: Outlier AI Impact -->
+    <g transform="translate(803, 15)">
+      <rect width="185" height="120" rx="12" fill="#161b2c" stroke="#7928ca" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="92" cy="38" r="22" fill="#7928ca" fill-opacity="0.12"/>
+      <text x="92" y="46" text-anchor="middle" font-size="26">⚡</text>
+      <rect x="135" y="10" width="38" height="18" rx="9" fill="#7928ca"/>
+      <text x="154" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="900" fill="#ffffff">SS</text>
+      <text x="92" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#c084fc">OUTLIER AI</text>
+      <text x="92" y="102" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94a3b8">+15% Model Accuracy</text>
+    </g>
+
+    <!-- TROPHY 6: DataCamp ML Scientist -->
+    <g transform="translate(1000, 15)">
+      <rect width="185" height="120" rx="12" fill="#161b2c" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <circle cx="92" cy="38" r="22" fill="#38bdf8" fill-opacity="0.12"/>
+      <text x="92" y="46" text-anchor="middle" font-size="26">💎</text>
+      <rect x="135" y="10" width="38" height="18" rx="9" fill="#38bdf8"/>
+      <text x="154" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="900" fill="#0d1117">S</text>
+      <text x="92" y="82" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#7dd3fc">ML SCIENTIST</text>
+      <text x="92" y="102" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#94a3b8">DataCamp Certified</text>
+    </g>
+
+  </g>
+</svg>

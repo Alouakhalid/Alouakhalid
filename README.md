@@ -295,7 +295,8 @@ timeline
 
   <br/><br/>
 
-  <img src="https://github-profile-trophy.vercel.app/?username=Alouakhalid&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+  <!-- 🏆 Verified Achievements & Trophies Showcase -->
+  <img src="./trophies.svg" width="100%" alt="Ali Khalid's Verified Honors & Trophies" />
 
   <br/><br/>
 
