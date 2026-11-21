@@ -313,6 +313,26 @@ timeline
 <br/>
 
 <!-- ================================================================= -->
+<!-- 🧊 3D CONTRIBUTION UNIVERSE                                       -->
+<!-- ================================================================= -->
+
+## 🧊 3D Contribution Universe
+
+<div align="center">
+
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Ali Khalid's 3D Contribution Calendar" />
+
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./divider.svg" width="100%" alt="divider"/>
+</div>
+
+<br/>
+
+<!-- ================================================================= -->
 <!-- 🐍 CONTRIBUTION SNAKE EATER                                       -->
 <!-- ================================================================= -->
 
