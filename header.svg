@@ -1,48 +1,177 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" xmlns:c2pa="http://c2pa.org/manifest">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ff0080"><animate attributeName="stop-color" values="#ff0080;#7928ca;#00b4d8;#ff0080" dur="9s" repeatCount="indefinite"/></stop>
-      <stop offset="0.5" stop-color="#7928ca"><animate attributeName="stop-color" values="#7928ca;#00b4d8;#ff0080;#7928ca" dur="9s" repeatCount="indefinite"/></stop>
-      <stop offset="1" stop-color="#00b4d8"><animate attributeName="stop-color" values="#00b4d8;#ff0080;#7928ca;#00b4d8" dur="9s" repeatCount="indefinite"/></stop>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#121026"/>
+      <stop offset="100%" stop-color="#0b1728"/>
     </linearGradient>
-    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#ffe3f4"/>
+
+    <!-- Animated Neon Wave Accent -->
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f">
+        <animate attributeName="stop-color" values="#ff007f;#7928ca;#00f0ff;#00e676;#ff007f" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="35%" stop-color="#7928ca">
+        <animate attributeName="stop-color" values="#7928ca;#00f0ff;#00e676;#ff007f;#7928ca" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="70%" stop-color="#00f0ff">
+        <animate attributeName="stop-color" values="#00f0ff;#00e676;#ff007f;#7928ca;#00f0ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00e676">
+        <animate attributeName="stop-color" values="#00e676;#ff007f;#7928ca;#00f0ff;#00e676" dur="8s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
-    <clipPath id="round"><rect width="1200" height="260" rx="18"/></clipPath>
+
+    <!-- Text Fill Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+
+    <!-- Border Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <clipPath id="cardClip">
+      <rect width="1200" height="280" rx="20"/>
+    </clipPath>
   </defs>
-  <g clip-path="url(#round)">
-    <rect width="1200" height="260" fill="url(#bg)"/>
-    <!-- neural-net lines -->
-    <g stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.2">
-      <line x1="80" y1="60" x2="220" y2="150"/><line x1="220" y1="150" x2="130" y2="215"/>
-      <line x1="220" y1="150" x2="340" y2="70"/><line x1="340" y1="70" x2="420" y2="190"/>
-      <line x1="860" y1="70" x2="980" y2="160"/><line x1="980" y1="160" x2="1090" y2="70"/>
-      <line x1="980" y1="160" x2="900" y2="220"/><line x1="1090" y1="70" x2="1130" y2="200"/>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Base Canvas -->
+    <rect width="1200" height="280" fill="url(#bgGradient)"/>
+
+    <!-- Subtle Tech Grid -->
+    <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+      <line x1="0" y1="40" x2="1200" y2="40"/>
+      <line x1="0" y1="80" x2="1200" y2="80"/>
+      <line x1="0" y1="120" x2="1200" y2="120"/>
+      <line x1="0" y1="160" x2="1200" y2="160"/>
+      <line x1="0" y1="200" x2="1200" y2="200"/>
+      <line x1="0" y1="240" x2="1200" y2="240"/>
+      <line x1="100" y1="0" x2="100" y2="280"/>
+      <line x1="300" y1="0" x2="300" y2="280"/>
+      <line x1="500" y1="0" x2="500" y2="280"/>
+      <line x1="700" y1="0" x2="700" y2="280"/>
+      <line x1="900" y1="0" x2="900" y2="280"/>
+      <line x1="1100" y1="0" x2="1100" y2="280"/>
     </g>
-    <!-- floating nodes -->
-    <g fill="#ffffff">
-      <circle cx="80" cy="60" r="5" fill-opacity="0.7"><animate attributeName="cy" values="60;75;60" dur="4s" repeatCount="indefinite"/></circle>
-      <circle cx="220" cy="150" r="7" fill-opacity="0.8"><animate attributeName="r" values="7;10;7" dur="3s" repeatCount="indefinite"/></circle>
-      <circle cx="130" cy="215" r="5" fill-opacity="0.6"><animate attributeName="cy" values="215;200;215" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="340" cy="70" r="6" fill-opacity="0.7"><animate attributeName="cy" values="70;85;70" dur="4.5s" repeatCount="indefinite"/></circle>
-      <circle cx="420" cy="190" r="5" fill-opacity="0.6"><animate attributeName="r" values="5;8;5" dur="3.5s" repeatCount="indefinite"/></circle>
-      <circle cx="860" cy="70" r="5" fill-opacity="0.6"><animate attributeName="cy" values="70;55;70" dur="4s" repeatCount="indefinite"/></circle>
-      <circle cx="980" cy="160" r="8" fill-opacity="0.8"><animate attributeName="r" values="8;11;8" dur="3s" repeatCount="indefinite"/></circle>
-      <circle cx="1090" cy="70" r="6" fill-opacity="0.7"><animate attributeName="cy" values="70;85;70" dur="5s" repeatCount="indefinite"/></circle>
-      <circle cx="900" cy="220" r="5" fill-opacity="0.6"/>
-      <circle cx="1130" cy="200" r="5" fill-opacity="0.6"><animate attributeName="cy" values="200;185;200" dur="4s" repeatCount="indefinite"/></circle>
+
+    <!-- Neural Network Synapse Lines (Left & Right) -->
+    <g stroke="url(#neonGlow)" stroke-opacity="0.35" stroke-width="1.4">
+      <line x1="60" y1="60" x2="180" y2="130"/>
+      <line x1="180" y1="130" x2="110" y2="220"/>
+      <line x1="180" y1="130" x2="280" y2="70"/>
+      <line x1="280" y1="70" x2="260" y2="210"/>
+      <line x1="260" y1="210" x2="360" y2="160"/>
+      
+      <line x1="840" y1="160" x2="940" y2="70"/>
+      <line x1="940" y1="70" x2="1020" y2="190"/>
+      <line x1="1020" y1="190" x2="1140" y2="80"/>
+      <line x1="1020" y1="190" x2="1100" y2="230"/>
+      <line x1="940" y1="70" x2="1060" y2="60"/>
     </g>
-    <text x="600" y="130" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" fill="url(#txt)" letter-spacing="2">
-      Ali Khalid
-      <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
+
+    <!-- Pulsing Neural Nodes -->
+    <g>
+      <circle cx="60" cy="60" r="4.5" fill="#ff007f">
+        <animate attributeName="r" values="4;6.5;4" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="180" cy="130" r="7" fill="#7928ca">
+        <animate attributeName="r" values="6;9;6" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="110" cy="220" r="5" fill="#00f0ff">
+        <animate attributeName="cy" values="220;210;220" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="280" cy="70" r="5" fill="#00e676">
+        <animate attributeName="r" values="4.5;7;4.5" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="260" cy="210" r="5.5" fill="#ff007f">
+        <animate attributeName="cy" values="210;222;210" dur="4.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="360" cy="160" r="4" fill="#00f0ff">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="840" cy="160" r="4.5" fill="#00f0ff">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="940" cy="70" r="6" fill="#ff007f">
+        <animate attributeName="r" values="5;8;5" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1020" cy="190" r="7.5" fill="#7928ca">
+        <animate attributeName="r" values="6.5;9.5;6.5" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1140" cy="80" r="5" fill="#00e676">
+        <animate attributeName="cy" values="80;70;80" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1100" cy="230" r="4.5" fill="#ff007f">
+        <animate attributeName="r" values="4;6.5;4" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1060" cy="60" r="4" fill="#00f0ff">
+        <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Top Glow Border -->
+    <rect x="0" y="0" width="1200" height="4" fill="url(#neonGlow)"/>
+
+    <!-- Center Content -->
+    <g transform="translate(470, 36)">
+      <rect width="260" height="30" rx="15" fill="#1e1e38" fill-opacity="0.8" stroke="url(#neonGlow)" stroke-width="1.2"/>
+      <circle cx="22" cy="15" r="4.5" fill="#00e676">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="36" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc" letter-spacing="1">
+        AI RESEARCHER &amp; ROBOTICIST
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="125" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Fira Code', monospace, sans-serif" font-size="64" font-weight="900" fill="url(#textGrad)" letter-spacing="3" filter="url(#glow)">
+      ALI KHALID
     </text>
-    <text x="600" y="180" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#ffffff" fill-opacity="0.95">
-      AI Engineer  •  Deep Learning Researcher  •  NLP &amp; Computer Vision
-      <animate attributeName="opacity" values="0;1" begin="0.8s" dur="1.4s" fill="freeze"/>
+
+    <!-- Subtitle Role Bar -->
+    <text x="600" y="168" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="#f43f5e" letter-spacing="2">
+      <tspan fill="#ff007f">NLP &amp; ARABIC OCR</tspan>
+      <tspan fill="#7928ca"> • </tspan>
+      <tspan fill="#00f0ff">COMPUTER VISION</tspan>
+      <tspan fill="#7928ca"> • </tspan>
+      <tspan fill="#00e676">ROBOTIC SOFTWARE</tspan>
     </text>
-    <text x="600" y="215" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="16" fill="#ffffff" fill-opacity="0.8">
-      Cairo, Egypt  |  Hugging Face  |  Open to Collab
-    </text>
+
+    <!-- Detail Tag Pills -->
+    <g transform="translate(230, 202)">
+      <g transform="translate(0, 0)">
+        <rect width="210" height="34" rx="17" fill="#181926" stroke="#ff007f" stroke-opacity="0.6" stroke-width="1"/>
+        <text x="105" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#fed7aa">
+          🔥 Qalam-Net: 35.8k+ HF
+        </text>
+      </g>
+      <g transform="translate(225, 0)">
+        <rect width="270" height="34" rx="17" fill="#181926" stroke="#00f0ff" stroke-opacity="0.6" stroke-width="1"/>
+        <text x="135" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#a5f3fc">
+          🎓 Mechatronics Eng. @ E-JUST
+        </text>
+      </g>
+      <g transform="translate(510, 0)">
+        <rect width="230" height="34" rx="17" fill="#181926" stroke="#00e676" stroke-opacity="0.6" stroke-width="1"/>
+        <text x="115" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#bbf7d0">
+          📍 Cairo, Egypt • Open to Collab
+        </text>
+      </g>
+    </g>
+
+    <!-- Bottom Laser Line -->
+    <rect x="0" y="276" width="1200" height="4" fill="url(#neonGlow)"/>
   </g>
-<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpmYjQ0ZGIyNS1kNmU4LTRkYzYtYjFhYS0xNzc3OGZjZThmNGIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLYiZxcyNBpYxMgGjUCdOOgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo2YzVjMDI4My0zNzhjLTQyYWYtYmRjOS04MmE1MDMxZTEwY2NscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoPkr0a/mc+qaOQCWK8e8EPgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggwV3feSZ9/9qKCp8sxTGRIiCGnLpShCbJd4bn7PkLASGkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaJlcZc3GpbvYf4J3gpHkpFkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIILNqvz8UZJSdYzy7XEhUD1SkZ3FIYSuBKaN7hcKY8BYZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQ8EZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmZiNDRkYjI1LWQ2ZTgtNGRjNi1iMWFhLTE3Nzc4ZmNlOGY0Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjgwMTE1ZTNlLTA3NGQtNGI0Yy05NDIzLTkzYzljNWFlMjM0MnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDBXd95Jn3/2ooKnyzFMZEiIIaculKEJsl3hufs+QsBIaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggaMe+6ygF/0mmf9wRk7Stk4HzXa0yfzvV93fYq5MX8sGiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggmTcmUIUCWlSnzjF5rlJLG376N4l+194EWj1jz0XA1S90Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQMJiR/kXItfPmZcKRlTCZzGv6GRwMOI7IGiHBKj3+uYUXIjVI57ngiiVQ5+XC09iRWnDe7aP0Znx20LYCLwDbPs=</c2pa:manifest></metadata></svg>
+</svg>
