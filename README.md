@@ -194,7 +194,7 @@ print(ali.current_mission())
   <img src="https://img.shields.io/badge/BERT-FF6F00?style=for-the-badge&logo=googlecloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/Qwen%20Fine--Tuning-7928ca?style=for-the-badge&logo=alibabacloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LoRA-PEFT-00e5ff?style=for-the-badge&labelColor=0d1117"/>
+  <img src="./lora-peft.svg"/>
   <img src="https://img.shields.io/badge/Seq2Seq%20Translation-ff007f?style=for-the-badge&labelColor=0d1117"/>
 </p>
 
