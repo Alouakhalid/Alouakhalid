@@ -118,7 +118,7 @@ print(ali.current_mission())
 
 | Model | Task | Architecture / Tech | Live Stats & Links |
 | :--- | :---: | :---: | :--- |
-| **🖋️ [Qalam-Net V2](https://huggingface.co/Ali0044/Qalam_Net_V2)** | Arabic Printed OCR | `TrOCR 0.3B` • ViT Encoder + RoBERTa Decoder • PyTorch | <img src="https://img.shields.io/huggingface/dt/Ali0044/Qalam_Net_V2?style=flat-square&label=downloads&labelColor=0d1117&color=FFD21E" alt="downloads"/> |
+| **🖋️ [Qalam-Net V2](https://huggingface.co/Ali0044/Qalam_Net_V2)** | Arabic Printed OCR | `TrOCR 0.3B` • ViT Encoder + RoBERTa Decoder • PyTorch | <img src="./badge-downloads.svg" alt="36k+ downloads on Hugging Face"/> |
 | **✍️ [Qalam-Net](https://huggingface.co/Ali0044/Qalam-Net)** | Arabic Handwritten OCR | `TrOCR` • Vision Encoder-Decoder | End-to-end handwritten Arabic text extraction |
 | **🌐 [LinguaFlow](https://huggingface.co/Ali0044/LinguaFlow)** | Machine Translation | `Seq2Seq` Transformer • NLP | Multilingual neural translation (EN / AR / JA) |
 | **🩺 [Qwen Medical Chatbot](https://huggingface.co/Ali0044/qwen-medical-chatbot)** | Clinical QA | `Qwen` • LoRA • SFT • PEFT | Domain fine-tuned clinical reasoning assistant |
@@ -181,7 +181,10 @@ print(ali.current_mission())
 <div align="center">
 
 ### 🧠 Machine Learning & Deep Learning
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,numpy,pandas,opencv&theme=dark" alt="ML & DL Skills" />
+<img src="./skills-ml.svg" alt="ML & DL Skills" />
+<br/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 
 <br/>
 
@@ -191,7 +194,7 @@ print(ali.current_mission())
   <img src="https://img.shields.io/badge/BERT-FF6F00?style=for-the-badge&logo=googlecloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/Qwen%20Fine--Tuning-7928ca?style=for-the-badge&logo=alibabacloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LoRA%20%2F%20PEFT-00e5ff?style=for-the-badge&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/LoRA-PEFT-00e5ff?style=for-the-badge&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/Seq2Seq%20Translation-ff007f?style=for-the-badge&labelColor=0d1117"/>
 </p>
 
@@ -205,7 +208,7 @@ print(ali.current_mission())
 </p>
 
 ### 🦾 Robotics, Data & Engineering Workflow
-<img src="https://skillicons.dev/icons?i=cpp,c,arduino,linux,bash,git,github,docker,aws,flask,fastapi,vscode&theme=dark" alt="Robotics & DevOps Skills" />
+<img src="./skills-robotics.svg" alt="Robotics & DevOps Skills" />
 <br/>
 <p>
   <img src="https://img.shields.io/badge/Robotic%20Arm%20Control-00C853?style=for-the-badge"/>
