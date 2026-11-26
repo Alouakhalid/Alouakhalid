@@ -1,19 +1,19 @@
-<!-- ================================================================= -->
-<!-- 🚀 ALI KHALID — ADVANCED ANIMATED & COLORED GITHUB PROFILE README -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 🚀 ALI KHALID — ANIMATED GITHUB PROFILE README (verified edition)  -->
+<!-- =================================================================== -->
 
 <div align="center">
 
   <!-- 🌟 Animated Neon Hero Banner -->
   <a href="https://github.com/Alouakhalid">
-    <img src="./header.svg" width="100%" alt="Ali Khalid - AI Engineer & Researcher" />
+    <img src="./header.svg" width="100%" alt="Ali Khalid — AI Engineer & Deep Learning Researcher" />
   </a>
 
   <br/><br/>
 
   <!-- ⚡ Dynamic Animated Typing SVG -->
   <a href="https://github.com/Alouakhalid">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=800&color=00F0FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=960&height=55&lines=%F0%9F%91%8B+Hi%2C+I'm+Ali+Khalid+%E2%80%94+AI+Engineer+%26+Deep+Learning+Researcher+%F0%9F%87%AA%F0%9F%87%AC;%F0%9F%94%A5+Creator+of+Qalam-Net+%E2%80%94+Arabic+OCR+(35.8k%2B+downloads+on+%F0%9F%A4%97);%F0%9F%A6%BE+Mechatronics+%40+E-JUST%3A+Bridging+AI+with+Robotics+Software;%F0%9F%A7%A0+Specializing+in+NLP%2C+Arabic+Vision-Language+%26+LLM+Fine-Tuning;%F0%9F%8F%86+ECPC+Finalist+%E2%80%A2+Open+to+AI+Research+%26+Production+Collabs!" alt="Typing Banner" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=800&color=00F0FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=960&height=55&lines=%F0%9F%91%8B%20Hi%2C%20I%27m%20Ali%20Khalid%20%E2%80%94%20AI%20Engineer%20%26%20Deep%20Learning%20Researcher%20%F0%9F%87%AA%F0%9F%87%AC;%F0%9F%94%A5%20Creator%20of%20Qalam-Net%20V2%20%E2%80%94%20Arabic%20OCR%20%2836k%2B%20downloads%20on%20%F0%9F%A4%97%29;%F0%9F%8E%93%20Mechatronics%20Engineering%20%40%20E-JUST%20%E2%80%94%20where%20AI%20meets%20Robotics;%F0%9F%A7%A0%20NLP%20%E2%80%A2%20Arabic%20Vision-Language%20%E2%80%A2%20LLM%20Fine-Tuning%20%E2%80%A2%20Computer%20Vision;%F0%9F%8F%86%20ECPC%20Finalist%20%28Rank%2061%2F600%2B%29%20%E2%80%A2%20Open%20to%20AI%20Research%20Collabs%21" alt="Typing Banner" />
   </a>
 
   <br/>
@@ -22,7 +22,7 @@
   <p>
     <img src="https://komarev.com/ghpvc/?username=Alouakhalid&label=PROFILE+VIEWS&color=00f0ff&style=for-the-badge&labelColor=0d1117" alt="Views"/>
     <img src="https://img.shields.io/github/followers/Alouakhalid?style=for-the-badge&logo=github&color=7928ca&labelColor=0d1117" alt="Followers"/>
-    <img src="https://img.shields.io/badge/STATUS-SHIPPING%20PRODUCTION%20AI-00e676?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0d1117" alt="Status"/>
+    <img src="https://img.shields.io/badge/FOCUS-ARABIC%20OCR%20%26%20LLMs-00e676?style=for-the-badge&logo=rocket&logoColor=white&labelColor=0d1117" alt="Focus"/>
     <img src="https://img.shields.io/badge/BASED%20IN-CAIRO%2C%20EGYPT-ff007f?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0d1117" alt="Location"/>
     <img src="https://img.shields.io/badge/E--JUST-MECHATRONICS%20ENG-ffb300?style=for-the-badge&logo=academia&logoColor=white&labelColor=0d1117" alt="Education"/>
   </p>
@@ -35,8 +35,8 @@
     <a href="https://huggingface.co/Ali0044" target="_blank">
       <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/>
     </a>
-    <a href="https://imaginative-faun-0a2cf4.netlify.app" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/>
+    <a href="https://alouakhalid.github.io/portfolio/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/>
     </a>
     <a href="https://github.com/Alouakhalid" target="_blank">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
@@ -53,9 +53,9 @@
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 👨‍💻 ABOUT ME & DEVELOPER TERMINAL                                 -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 👨‍💻 ABOUT ME & DEVELOPER TERMINAL                                   -->
+<!-- =================================================================== -->
 
 ## 💻 System Diagnostics & Developer Profile
 
@@ -66,26 +66,22 @@
 ```python
 class AliKhalid:
     def __init__(self):
-        self.role       = "AI Engineer & Deep Learning Researcher"
-        self.location   = "Cairo, Egypt 🇪🇬"
-        self.education  = "B.Sc. Mechatronics @ E-JUST (2022 – 2027)"
-        self.experience = "4+ years · Outlier AI · NTI · NAID · ITI · Upwork"
-        self.specialties = [
-            "NLP & Arabic OCR", "Large Language Models (LLMs)",
-            "Computer Vision & Multimodal AI", "Robotic Arm Modular Control"
+        self.role      = "AI Engineer & Deep Learning Researcher"
+        self.location  = "Cairo, Egypt 🇪🇬"
+        self.education = "B.Sc. Mechatronics Engineering @ E-JUST (2022 – 2027)"
+        self.focus     = [
+            "NLP & Arabic OCR", "LLM Fine-Tuning (LoRA / PEFT)",
+            "Computer Vision & Multimodal AI", "Robotic Arm Control Software"
         ]
-        self.languages  = {
-            "Arabic": "Native 🇪🇬",
-            "English": "Fluent 🇬🇧",
-            "Japanese": "Proficient 🇯🇵"
-        }
+        self.toolbox   = ["PyTorch", "TensorFlow", "Transformers",
+                          "OpenCV", "Docker", "AWS"]
 
     def current_mission(self):
         return {
-            "flagship": "Qalam-Net V2 — 35,800+ downloads on 🤗 Hugging Face",
-            "thesis": "Modular Control System for Robotic Arms (+15% precision)",
-            "contest": "ECPC Finalist (Rank 61 / 600+ teams)",
-            "status": "Available for High-Impact AI Research & Engineering"
+            "flagship": "Qalam-Net V2 — Arabic OCR on 🤗 (36k+ downloads)",
+            "thesis":   "Modular control system for robotic arms @ E-JUST",
+            "contest":  "ECPC Finalist — Rank 61 of 600+ teams",
+            "status":   "Open to AI research & engineering opportunities"
         }
 
 ali = AliKhalid()
@@ -99,7 +95,7 @@ print(ali.current_mission())
 
   <br/>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=360&height=35&lines=Teaching+machines+to+read+Arabic+%E2%9C%8D%EF%B8%8F;Fine-tuning+domain-specific+LLMs+%E2%9A%99%EF%B8%8F;Designing+autonomous+robotic+software+%F0%9F%A6%BE" alt="mini typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=360&height=35&lines=Teaching%20machines%20to%20read%20Arabic%20%E2%9C%8D%EF%B8%8F;Fine-tuning%20domain-specific%20LLMs%20%E2%9A%99%EF%B8%8F;Designing%20autonomous%20robotic%20software%20%F0%9F%A6%BE" alt="mini typing"/>
 
 </td>
 </tr>
@@ -111,22 +107,24 @@ print(ali.current_mission())
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 🚀 FEATURED OPEN-SOURCE & HUGGING FACE MODELS                    -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 🚀 FLAGSHIP HUGGING FACE MODELS                                     -->
+<!-- =================================================================== -->
 
-## 🚀 Flagship Projects & Hugging Face Models
+## 🚀 Flagship Models on Hugging Face
+
+<div align="center">
+  <img src="./models.svg" width="100%" alt="Animated neural model pipeline banner"/>
+</div>
 
 <div align="center">
 
-| Project & Model | Category | Architecture / Tech | Highlights & Links |
+| Model | Task | Architecture / Tech | Live Stats & Links |
 | :--- | :---: | :---: | :--- |
-| **🔥 [Qalam-Net V2](https://huggingface.co/Ali0044/Qalam_Net_V2)** | Arabic Printed OCR | `TrOCR 0.3B` • PyTorch • Vision | 📈 **35,800+ Downloads** on Hugging Face. State-of-the-art printed Arabic OCR. |
-| **✍️ [Qalam-Net](https://huggingface.co/Ali0044/Qalam-Net)** | Handwritten OCR | `TrOCR` • Vision Encoder-Decoder | End-to-end Arabic handwritten document and calligraphy text extraction. |
-| **🌐 [LinguaFlow](https://huggingface.co/Ali0044/LinguaFlow)** | Machine Translation | `Seq2Seq` • Transformers • NLP | Multilingual neural translation engine optimized for low-resource pairs. |
-| **🩺 [Qwen Medical Chatbot](https://huggingface.co/Ali0044/qwen-medical-chatbot)** | Clinical QA LLM | `Qwen` • LoRA • SFT • PEFT | Fine-tuned reasoning model providing clinical diagnostics guidance. |
-| **🦾 [Robotic Arm Controller](https://github.com/Alouakhalid)** | Mechatronics & AI | `C++` • `ROS` • Kinematics | E-JUST Bachelor Thesis: Modular control with **+15% precision improvement**. |
-| **🤖 [Alissa / Multimodal Bot](https://github.com/Alouakhalid)** | AI Assistant | `Streamlit` • `Gemini` • `LangChain` | Full-stack interactive assistant supporting multimodal voice, code, & vision. |
+| **🖋️ [Qalam-Net V2](https://huggingface.co/Ali0044/Qalam_Net_V2)** | Arabic Printed OCR | `TrOCR 0.3B` • ViT Encoder + RoBERTa Decoder • PyTorch | <img src="https://img.shields.io/huggingface/dt/Ali0044/Qalam_Net_V2?style=flat-square&label=downloads&labelColor=0d1117&color=FFD21E" alt="downloads"/> |
+| **✍️ [Qalam-Net](https://huggingface.co/Ali0044/Qalam-Net)** | Arabic Handwritten OCR | `TrOCR` • Vision Encoder-Decoder | End-to-end handwritten Arabic text extraction |
+| **🌐 [LinguaFlow](https://huggingface.co/Ali0044/LinguaFlow)** | Machine Translation | `Seq2Seq` Transformer • NLP | Multilingual neural translation (EN / AR / JA) |
+| **🩺 [Qwen Medical Chatbot](https://huggingface.co/Ali0044/qwen-medical-chatbot)** | Clinical QA | `Qwen` • LoRA • SFT • PEFT | Domain fine-tuned clinical reasoning assistant |
 
 <br/>
 
@@ -144,11 +142,40 @@ print(ali.current_mission())
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 🛠️ TECH ARSENAL & SKILLS MATRIX                                  -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 🧩 FEATURED OPEN-SOURCE PROJECTS                                    -->
+<!-- =================================================================== -->
 
-## 🛠️ Comprehensive Tech Arsenal
+## 🧩 Featured Open-Source Projects
+
+<div align="center">
+
+| Project | What It Does | Tech |
+| :--- | :--- | :---: |
+| **🧊 [AI Rubik's Cube Agent](https://github.com/Alouakhalid/ai-rubiks-cube-agent)** | Autonomous 3D Rubik's Cube solver driven by an agentic LLM | `Groq Qwen 2.5 32B` • `Kociemba` • `RAG` • `Three.js` |
+| **🧠 [NeuralLens](https://github.com/Alouakhalid/NeuralLens)** | Real-time continual-learning image captioning platform | `ViT` • `GPT-2` • `Continual Learning` |
+| **𓂀 [KhemetCode AI](https://github.com/Alouakhalid/KhemetCode-AI)** | Egyptian-inspired text-to-code transformer with chat UI & training studio | `Transformers` • `NLP` |
+| **⚔️ [Tar Attack Judge](https://github.com/Alouakhalid/Tar_Attack_Judge)** | AI red-teaming arena: AttackBot vs TargetBot with JudgeBot feedback | `LLMs` • `Streamlit` |
+| **🪪 [Egypt ID OCR](https://github.com/Alouakhalid/Egypt-ID-OCR)** | Arabic OCR pipeline for Egyptian national ID cards | `OpenCV` • `OCR` |
+| **🦾 [Cubic Spline Robot Path](https://github.com/Alouakhalid/cubic-spline-path-of-robot-)** | C²-continuous cubic-spline trajectory planning for robotic arms | `Python` • `Kinematics` |
+| **🛡️ [AegisTrace](https://github.com/Alouakhalid/AegisTrace)** | Autonomous AI security-intelligence & verified-remediation platform | `AI Agents` • `Security` |
+| **📊 [Data Engineering Materials](https://github.com/Alouakhalid/Data-Engineering-Material-and-Projects)** | Structured data-engineering notes, labs & hands-on projects | `SQL` • `ETL` • `Pipelines` |
+
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="./divider.svg" width="100%" alt="divider"/>
+</div>
+
+<br/>
+
+<!-- =================================================================== -->
+<!-- 🛠️ TECH ARSENAL & SKILLS MATRIX                                     -->
+<!-- =================================================================== -->
+
+## 🛠️ Tech Arsenal
 
 <div align="center">
 
@@ -161,12 +188,10 @@ print(ali.current_mission())
 <p>
   <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
   <img src="https://img.shields.io/badge/BERT-FF6F00?style=for-the-badge&logo=googlecloud&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI%20GPT-412991?style=for-the-badge&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Qwen%20Fine--Tuning-7928ca?style=for-the-badge&logo=alibabacloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/DeepSeek-0066FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Seq2Seq%20Translation-00e5ff?style=for-the-badge&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Sentiment%20%26%20Topics-ff007f?style=for-the-badge&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/LoRA%20%2F%20PEFT-00e5ff?style=for-the-badge&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Seq2Seq%20Translation-ff007f?style=for-the-badge&labelColor=0d1117"/>
 </p>
 
 ### 👁️ Computer Vision & Multimodal
@@ -174,24 +199,19 @@ print(ali.current_mission())
   <img src="https://img.shields.io/badge/CNNs-00BCD4?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Vision%20Transformers%20(ViT)-3F51B5?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/TrOCR%20(0.3B)-E91E63?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/YOLO%20Detection-00E676?style=for-the-badge&logo=yolo&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Diffusion%20Models-9C27B0?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Object%20Detection-00E676?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Real--Time%20Vision-FF3D00?style=for-the-badge"/>
 </p>
 
-### 🦾 Robotics, Embedded Systems & Hardware
-<img src="https://skillicons.dev/icons?i=cpp,c,arduino,linux,bash&theme=dark" alt="Robotics Skills" />
+### 🦾 Robotics, Data & Engineering Workflow
+<img src="https://skillicons.dev/icons?i=cpp,c,arduino,linux,bash,git,github,docker,aws,flask,fastapi,vscode&theme=dark" alt="Robotics & DevOps Skills" />
 <br/>
 <p>
-  <img src="https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AVR%20ATmega32-00599C?style=for-the-badge&logo=microchip&logoColor=white"/>
   <img src="https://img.shields.io/badge/Robotic%20Arm%20Control-00C853?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Proteus%20Simulation-0288D1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/WS2812%20Addressable%20LEDs-E65100?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Inverse%20Kinematics-7928ca?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Cubic%20Spline%20Trajectories-ff007f?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Stable--Baselines3%20RL-ffb300?style=for-the-badge"/>
 </p>
-
-### ⚙️ DevOps, Cloud & Development Workflow
-<img src="https://skillicons.dev/icons?i=git,github,docker,aws,vscode,jupyter,postman&theme=dark" alt="DevOps Skills" />
 
 </div>
 
@@ -203,35 +223,33 @@ print(ali.current_mission())
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 💼 CAREER JOURNEY & TIMELINE                                     -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 💼 CAREER JOURNEY & TIMELINE                                        -->
+<!-- =================================================================== -->
 
-## 💼 Career Journey & Professional Experience
+## 💼 Career Journey
 
 ```mermaid
 timeline
     title 🚀 Engineering & Research Trajectory
-    2021 : Freelance Data Scientist · Upwork (ML Preprocessing & Predictive Modeling)
-    2022 : Started B.Sc. Mechatronics @ Egypt-Japan University of Science & Technology (E-JUST)
-    2023 : AI Trainer & ML Engineer · Outlier AI (+15% model quality improvement)
-    2025 : Computer Vision Engineer (Intern) · NAID (Autonomous vision pipelines)
-         : NLP Engineer (Intern) · NTI (97.8% final evaluation score)
-         : AI Engineer (Intern) · ITI (Generative AI & Production ML)
-    2027 : B.Sc. Graduation 🎓 (Focus: AI-Powered Autonomous Robotics)
+    2021 : Freelance AI/ML Engineer · Upwork (custom ML models & data pipelines)
+    2022 : Started B.Sc. Mechatronics Engineering @ E-JUST
+    2025 : NLP Engineer (Intern) · NTI — 97.8% final evaluation score
+         : Computer Vision Engineer (Intern) · NAID — real-time vision pipelines
+         : AI Engineer (Intern) · ITI — enterprise GenAI workflows
+    2027 : B.Sc. Graduation 🎓 — thesis: modular control for robotic arms
 ```
 
 <details>
-<summary><b>📂 Expand Complete Experience & Impact Record</b></summary>
+<summary><b>📂 Expand Complete Experience Record</b></summary>
 <br/>
 
-| Role | Organization | Duration | Impact & Responsibilities |
+| Role | Organization | Duration | Focus |
 | :--- | :--- | :--- | :--- |
-| **AI Trainer & ML Engineer** | Outlier AI | Jan 2023 – Present | Boosted complex reasoning accuracy by **+15%**; trained LLMs in coding, RLHF, and structured prompt engineering. |
-| **Freelance Data Scientist** | Upwork | Jun 2021 – Present | Delivered custom computer vision, machine learning models, ETL pipelines, and client data solutions. |
-| **NLP Engineer (Intern)** | National Telecommunication Institute (NTI) | Aug 2025 | Developed end-to-end text classification, translation, and sentiment analysis; achieved **97.8% evaluation score**. |
-| **Computer Vision Engineer (Intern)** | National Academy of Information Tech for PWD (NAID) | Jul – Sep 2025 | Built real-time assistive vision systems, object detection pipelines, and embedded model inference. |
-| **AI Engineer (Intern)** | Information Technology Institute (ITI) | Aug 2025 | Built enterprise Generative AI workflows, fine-tuned transformer models, and containerized deployments. |
+| **NLP Engineer (Intern)** | National Telecommunication Institute (NTI) | Aug 2025 | Text classification, sentiment analysis & topic modeling — **97.8% evaluation score** |
+| **Computer Vision Engineer (Intern)** | NAID | Jul – Sep 2025 | Real-time image processing, data pipelines & object-detection experiments |
+| **AI Engineer (Intern)** | Information Technology Institute (ITI) | Aug 2025 | ML models for analysis & prediction, NLP algorithms, GenAI research |
+| **AI/ML Engineer & Data Scientist (Freelance)** | Upwork | 2021 – Present | Custom ML models, preprocessing pipelines & client data solutions |
 
 </details>
 
@@ -243,17 +261,16 @@ timeline
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 🏆 HONORS, COMPETITIONS & CERTIFICATIONS                         -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 🏆 HONORS, COMPETITIONS & CERTIFICATIONS                            -->
+<!-- =================================================================== -->
 
-## 🏆 Honors, Competitions & Certifications
+## 🏆 Honors & Certifications
 
 <div align="center">
 
   <p>
     <img src="https://img.shields.io/badge/🥇%20ECPC%20Finalist-Rank%2061%20%2F%20600%2B%20Teams-FFD700?style=for-the-badge&logo=codeforces&logoColor=black&labelColor=0d1117" alt="ECPC Finalist"/>
-    <img src="https://img.shields.io/badge/🤖%20National%20Robotics%20Competition-Team%20Lead-00f0ff?style=for-the-badge&logo=probot&logoColor=white&labelColor=0d1117" alt="Robotics Lead"/>
   </p>
 
   <p>
@@ -262,7 +279,8 @@ timeline
     <img src="https://img.shields.io/badge/Data%20Scientist-IBM-052FAD?style=for-the-badge&logo=ibm&logoColor=white"/>
     <img src="https://img.shields.io/badge/AI%20Engineer-AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
     <img src="https://img.shields.io/badge/GenAI%20Engineer-NVIDIA%20%2F%20ITI-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
-    <img src="https://img.shields.io/badge/NLP%20Specialist-NTI%20(97.8%25)-00ACC1?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/NLP%20Engineer-NTI%20(97.8%25)-00ACC1?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/CV%20Engineer-NAID-E91E63?style=for-the-badge"/>
   </p>
 
 </div>
@@ -275,11 +293,11 @@ timeline
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 📊 GITHUB ANALYTICS & ACTIVITY WAVEFORM                          -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 📊 GITHUB ANALYTICS & ACTIVITY                                      -->
+<!-- =================================================================== -->
 
-## 📊 Live GitHub Analytics & Metrics
+## 📊 Live GitHub Analytics
 
 <div align="center">
 
@@ -295,7 +313,7 @@ timeline
 
   <br/><br/>
 
-  <!-- 🏆 Verified Achievements & Trophies Showcase -->
+  <!-- 🏆 Verified Achievements Showcase -->
   <img src="./trophies.svg" width="100%" alt="Ali Khalid's Verified Honors & Trophies" />
 
   <br/><br/>
@@ -312,9 +330,9 @@ timeline
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 🧊 3D CONTRIBUTION UNIVERSE                                       -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 🧊 3D CONTRIBUTION UNIVERSE                                         -->
+<!-- =================================================================== -->
 
 ## 🧊 3D Contribution Universe
 
@@ -332,15 +350,18 @@ timeline
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 🐍 CONTRIBUTION SNAKE EATER                                       -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 🐍 CONTRIBUTION SNAKE                                               -->
+<!-- =================================================================== -->
 
-## 🐍 Contribution Snake Eater
+## 🐍 Contribution Snake
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/Alouakhalid/Alouakhalid/output/github-snake-dark.svg" width="100%" alt="Ali Khalid's GitHub Contribution Snake" onerror="this.onerror=null;this.src='https://github-readme-activity-graph.vercel.app/graph?username=Alouakhalid&theme=react-dark&hide_border=true&area=true&color=00f0ff&line=ff007f&point=ffffff';" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alouakhalid/Alouakhalid/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/Alouakhalid/Alouakhalid/output/github-snake-dark.svg" width="100%" alt="Ali Khalid's GitHub Contribution Snake" />
+  </picture>
 
 </div>
 
@@ -352,24 +373,20 @@ timeline
 
 <br/>
 
-<!-- ================================================================= -->
-<!-- 💬 INSPIRING TECH QUOTE & CONNECT                                 -->
-<!-- ================================================================= -->
+<!-- =================================================================== -->
+<!-- 💬 QUOTE & CONNECT                                                  -->
+<!-- =================================================================== -->
 
-## 💬 Quote of the Moment
+## 💬 Let's Build Something Intelligent
 
 <div align="center">
 
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Tech Quote" />
-
-  <br/><br/>
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2400&pause=1200&color=F7B93E&center=true&vCenter=true&width=700&lines=Have+an+AI+or+Robotics+initiative%3F+Let's+build+it!+%F0%9F%9A%80;Open+to+research+collaborations+%26+consulting+%F0%9F%A4%9D;Connecting+deep+learning+with+physical+machines+%F0%9F%A4%96" alt="Connect Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2400&pause=1200&color=F7B93E&center=true&vCenter=true&width=700&lines=Have%20an%20AI%20or%20Robotics%20initiative%3F%20Let%27s%20build%20it%21%20%F0%9F%9A%80;Open%20to%20research%20collaborations%20%26%20internships%20%F0%9F%A4%9D;Connecting%20deep%20learning%20with%20physical%20machines%20%F0%9F%A4%96" alt="Connect Typing Banner" />
 
   <br/>
 
   <p>
-    📬 <b>Direct Email:</b> <a href="mailto:ali88883737@gmail.com">ali88883737@gmail.com</a> &nbsp;•&nbsp; 📍 <b>Cairo, Egypt</b> &nbsp;•&nbsp; 🎓 <b>E-JUST</b>
+    📬 <b>Email:</b> <a href="mailto:ali88883737@gmail.com">ali88883737@gmail.com</a> &nbsp;•&nbsp; 📍 <b>Cairo, Egypt</b> &nbsp;•&nbsp; 🎓 <b>E-JUST</b>
   </p>
 
   <br/>
