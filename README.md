@@ -13,7 +13,7 @@
 
   <!-- ⚡ Dynamic Animated Typing SVG -->
   <a href="https://github.com/Alouakhalid">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2500&pause=800&color=00F0FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=960&height=55&lines=%F0%9F%91%8B%20Hi%2C%20I%27m%20Ali%20Khalid%20%E2%80%94%20AI%20Engineer%20%26%20Deep%20Learning%20Researcher%20%F0%9F%87%AA%F0%9F%87%AC;%F0%9F%94%A5%20Creator%20of%20Qalam-Net%20V2%20%E2%80%94%20Arabic%20OCR%20%2836k%2B%20downloads%20on%20%F0%9F%A4%97%29;%F0%9F%8E%93%20Mechatronics%20Engineering%20%40%20E-JUST%20%E2%80%94%20where%20AI%20meets%20Robotics;%F0%9F%A7%A0%20NLP%20%E2%80%A2%20Arabic%20Vision-Language%20%E2%80%A2%20LLM%20Fine-Tuning%20%E2%80%A2%20Computer%20Vision;%F0%9F%8F%86%20ECPC%20Finalist%20%28Rank%2061%2F600%2B%29%20%E2%80%A2%20Open%20to%20AI%20Research%20Collabs%21" alt="Typing Banner" />
+    <img src="./typing.svg" width="100%" alt="Typing Banner" />
   </a>
 
   <br/>
@@ -94,9 +94,6 @@ print(ali.current_mission())
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Alouakhalid&theme=tokyonight" width="100%" alt="Profile Details Card"/>
 
   <br/>
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=360&height=35&lines=Teaching%20machines%20to%20read%20Arabic%20%E2%9C%8D%EF%B8%8F;Fine-tuning%20domain-specific%20LLMs%20%E2%9A%99%EF%B8%8F;Designing%20autonomous%20robotic%20software%20%F0%9F%A6%BE" alt="mini typing"/>
-
 </td>
 </tr>
 </table>
@@ -114,7 +111,7 @@ print(ali.current_mission())
 ## 🚀 Flagship Models on Hugging Face
 
 <div align="center">
-  <img src="./models.svg" width="100%" alt="Animated neural model pipeline banner"/>
+  <img src="./qalam.svg" width="100%" alt="Qalam-Net V2 Arabic OCR pipeline animation"/>
 </div>
 
 <div align="center">
@@ -147,6 +144,10 @@ print(ali.current_mission())
 <!-- =================================================================== -->
 
 ## 🧩 Featured Open-Source Projects
+
+<div align="center">
+  <img src="./rubiks.svg" width="100%" alt="AI Rubik's Cube Agent — animated 3D cube and move stream"/>
+</div>
 
 <div align="center">
 
@@ -381,7 +382,7 @@ timeline
 
 <div align="center">
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2400&pause=1200&color=F7B93E&center=true&vCenter=true&width=700&lines=Have%20an%20AI%20or%20Robotics%20initiative%3F%20Let%27s%20build%20it%21%20%F0%9F%9A%80;Open%20to%20research%20collaborations%20%26%20internships%20%F0%9F%A4%9D;Connecting%20deep%20learning%20with%20physical%20machines%20%F0%9F%A4%96" alt="Connect Typing Banner" />
+  <img src="./outro.svg" width="700" alt="Connect Typing Banner" />
 
   <br/>
 
